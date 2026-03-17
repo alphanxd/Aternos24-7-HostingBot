@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Void_pulsebot",
+    "username": "NO1MC",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "VoidPulseSMP.aternos.me",
     "port": 15376,
-    "version": "",
+    "version": "1.20.1",
     "try-creative": false
   },
   "position": {
@@ -24,12 +24,12 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 180,
       "messages": [
         "I'm the lifeline Of VoidpulseSMP",
         "Follow @icedsone_01 and @_quantum_pulse20!",
@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000,
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 60000,
     "periodic-rejoin": {
       "enabled": false,
       "min-interval": 20,
@@ -49,28 +49,26 @@
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 8000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 15000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -87,6 +85,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
